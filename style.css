@@ -897,12 +897,12 @@ footer {
 
 
 @media (max-width: 600px) and (orientation: portrait) {
+
   body {
     max-width: 350px;
-    width: auto;
     align-items: center;
     align-content: center;
-
+    max-height: auto;
   }
 
   header {
