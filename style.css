@@ -889,6 +889,13 @@ footer {
   top: 505px;
 }
 
+.line {
+  border-bottom: 1px solid grey;
+  margin-top: 520px;
+  width: 100%;
+}
+
+
 @media (max-width: 600px) and (orientation: portrait) {
   body {
     max-width: 350px;
@@ -1248,6 +1255,23 @@ footer {
     align-content: flex-start;
     flex-wrap: center;
     left: 40px;
+
+  }
+
+  .teknolojik-yemekler-footer {
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .contact {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .hot-menu {
@@ -1258,6 +1282,13 @@ footer {
     flex-wrap: center;
     left: 0px;
     top: 500px;
+    width: 98.39px;
+    height: 32px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
 
   }
 
@@ -1299,9 +1330,12 @@ footer {
 
   }
 
-  .hr {
-    border: 10px solid white;
-    border-radius: 5px;
+  .line {
+    position: absolute;
+    border-bottom: 1px solid grey;
+    margin-top: 520px;
+    width: 80%;
+    left: 30px;
+    top: 700px;
   }
-
 }
